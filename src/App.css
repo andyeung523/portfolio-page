@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+
+h1 {
+  margin:0;
+  color: #fff;
+  font-size:30px;
+}	
+
+h2 {
+  margin:0;
+  color: #004d99;
+  font-size:30px;
+}	
+
+h3 {
+  margin:0;
+  color: #fff;
+  font-size:35px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size:20;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar {
+      margin-bottom: 0;
+      background-color: #1abc9c;
+      z-index: 9999;
+      border: 0;
+      font-size: 15px !important;
+      line-height: 1.4 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #1abc9c !important;
+      background-color: #fff !important;
   }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+
+body {
+  margin: 0;
+  font-size: 15px;
+  position:relative;
+  
 }
+
+#hi{
+	background-color: #1abc9c; 
+    color: #ffffff;
+	border:0;
+	padding-top:250px;
+	padding-bottom: 250px;
+}	
+	
+#aboutMe{
+	padding-top: 250px;
+	padding-bottom: 250px;
+	align:center;
+	background-color : #fff;
+	color: #000;
+}
+
+#college{
+	padding-top:250px;
+	padding-bottom: 250px;
+	background-color:#134566;
+}
+
+.thumbnail{
+height:120px;
+}
+
+#know{
+	color: #000;
+	padding-top:250px;
+	padding-bottom: 250px;
+}
+
+#contact{
+	padding-top: 150px;
+	padding-bottom: 350px;
+	align:center;
+	background-color: #1abc9c; 
+}
+
+#info{
+padding-top:150px;
+ margin:0;
+display:inline-block;
+    margin:0px;
+    width:100%;
+    height:100px;
+	align:left;
+}
+
