@@ -62,7 +62,7 @@ body {
 #aboutMe{
 	padding-top: 250px;
 	padding-bottom: 250px;
-	align:center;
+	align-content:center;
 	background-color : #fff;
 	color: #000;
 }
@@ -86,7 +86,7 @@ height:120px;
 #contact{
 	padding-top: 150px;
 	padding-bottom: 350px;
-	align:center;
+	align-content:center;
 	background-color: #1abc9c; 
 }
 
@@ -97,6 +97,6 @@ display:inline-block;
     margin:0px;
     width:100%;
     height:100px;
-	align:left;
+	align-content:left;
 }
 
