@@ -1,11 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 
-function index() {
-  return (
-    <div className="index">
-      Welcome to Andy's portfolio.
-    </div>
-  );
-}
-export default index;
+ReactDOM.render(<App />, document.getElementById('root'));
