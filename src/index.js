@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 
-function App() {
+function index() {
   return (
-    <div className="App">
+    <div className="index">
       Welcome to Andy's portfolio.
     </div>
   );
 }
-export default App;
+export default index;
