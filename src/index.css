@@ -1,28 +1,100 @@
+h1 {
+  margin:0;
+  color: #fff;
+  font-size:30px;
+}	
+
+h2 {
+  margin:0;
+  color: #004d99;
+  font-size:30px;
+}	
+
+h3 {
+  margin:0;
+  color: #fff;
+  font-size:35px;
+}
+
+p {
+  font-size:20;
+}
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #1abc9c;
+      z-index: 9999;
+      border: 0;
+      font-size: 15px !important;
+      line-height: 1.4 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #1abc9c !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  position:relative;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#hi{
+	background-color: #1abc9c; 
+    color: #ffffff;
+	border:0;
+	padding-top:250px;
+	padding-bottom: 250px;
+}	
+	
+#aboutMe{
+	padding-top: 250px;
+	padding-bottom: 250px;
+	align-content:center;
+	background-color : #fff;
+	color: #000;
 }
 
-nav{
-  padding: 5px;
+#college{
+	padding-top:250px;
+	padding-bottom: 250px;
+	background-color:#134566;
 }
 
-nav ul {
-  padding: 0;
+.thumbnail{
+height:120px;
 }
 
-nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+#know{
+	color: #000;
+	padding-top:250px;
+	padding-bottom: 250px;
 }
 
+#contact{
+	padding-top: 150px;
+	padding-bottom: 350px;
+	align-content:center;
+	background-color: #1abc9c; 
+}
 
+#info{
+padding-top:150px;
+ margin:0;
+display:inline-block;
+    margin:0px;
+    width:100%;
+    height:100px;
+    align-content:start;
+}
