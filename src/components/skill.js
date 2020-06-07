@@ -10,9 +10,6 @@ class Skill extends Component {
                         <p>javascript</p>
                     </div>
                     <div class="col-sm-4">
-                        <p>bootstrap</p>
-                    </div>
-                    <div class="col-sm-4">
                         <p>React.js</p>
                     </div>
                     <div class="col-sm-4">
@@ -33,6 +30,10 @@ class Skill extends Component {
                     <div class="col-sm-4">
                         <p>JAVA</p>
                     </div>
+                    <div class="col-sm-4">
+                        <p>Python</p>
+                    </div>
+                    
                 </div>
             </div>
         );
