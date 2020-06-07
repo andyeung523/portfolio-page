@@ -23,7 +23,7 @@ class College extends Component {
                         <div class="thumbnail">
                             UST
             <img height="50px" width="50px"
-                                src="https://github.com/andyeung523/portfolio-page/blob/51e37012f791ab3176ef9bf064fb136d114f771b/src/img/hkust.png" alt="UST" />
+                                src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/UST.svg/180px-UST.svg.png" alt="UST" />
                         </div>
                     </div>
                 </div>
