@@ -35,6 +35,7 @@
     border-radius: 12px;
     background: #ffffff;
     box-shadow: inset 5px 5px 10px #e3e3e3, inset -5px -5px 10px #ffffff;
+    transition: 0.3s;
 }
 
 .nm-container {
@@ -64,22 +65,32 @@
     box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #eeeeee;
     height: fit-content;
 }
+.neumorphy:active {
 
+    transform: perspective(500px) translateZ(-3rem);
+}
 .no-display{
     display: none;
 }
+.dropDown{
+    transition: 0.3s;
+}
 
+
+/* display only < 600px */
 @media screen and (max-width:600px) {
     .nav-btn{
         display: none;
     }
     
 }
-
+/* display if > 600px */
 @media screen and (min-width:600px) {
     .icon{
         display: none;
     }
-    
+    .dropDown{
+        display: none;
+    }
     
 }
