@@ -1,37 +1,49 @@
 import './head.css'
 
-import React,{ useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa';
+import self_img from '../../asset/img/sign_icon.svg'
+import DDBtn from './ddBtn/ddBtn'
 
 
 
 
-function Head() {
+
+function Head(props) {
+
     const [checked, setChecked] = useState(false);
-    var dropDownList;
-    function onclick () {
-        console.log(checked);
-       setChecked(!checked)
+    const [navClass, setnavClass] = useState("n-d")
+    const [wrapperClass, setwrapperClass] = useState("no-show")
+
+
+    function onclick() {
+        setChecked(!checked)
     }
 
-    if(checked==0){
-        dropDownList =<div className="dropDown">dropdown</div>;
-    }else{
-        dropDownList=<div className="dropDown"></div>;
-    }
+    useEffect(() => {
+        if (checked == 0) {
+            // show the dropdown
+            setwrapperClass(" no-show ")
+            setnavClass(" n-d")
+        } else {
+            //do not show the drop down
+            setwrapperClass(" show")
+            setnavClass(" s-d")
+        }
+    })
 
 
     return (
         <section>
             <div id="head-area" className="flexBox">
-                <div id="title">
-                    Andy Yeung
+                <div id="title" >
+                    <img id="sign_icon" alt="Andy Yeung" src={self_img}/>                    
                 </div>
 
                 <div id="btn-div ">
-                    <button className="nav-btn">
+                    <a className="nav-btn" href="#self-area" >
                         About
-                    </button>
+                    </a>
                     <button className="nav-btn">
                         Background
                     </button>
@@ -51,7 +63,16 @@ function Head() {
 
             </div>
 
-            {dropDownList}
+            <div id="dropdown_meun"className={wrapperClass}>
+                <div className={navClass}>
+                    <DDBtn name="About" closeFunc={onclick} to="#self-area"/>
+                    <DDBtn name="Background"/>
+                    <DDBtn name="Skill"/>
+                    <DDBtn name="Porfolio"/>
+                    <DDBtn name="Contact"/>
+
+                </div>
+            </div>
 
         </section>
     )

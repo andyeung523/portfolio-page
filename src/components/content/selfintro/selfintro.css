@@ -1,0 +1,89 @@
+.neumorphy {
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #eeeeee;
+    height: fit-content;
+}
+
+.neumorphy:active{
+    all:inherit;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+
+#self_img {
+    height: 30vh;
+    border-radius: 50%;
+}
+
+#self-area {
+    top: 15vh;
+    height: 50vh;
+    width: 80;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    position: relative;
+}
+
+#self-text {
+    font-size: 3vw;
+   
+}
+
+
+@media screen and (max-width:600px) {
+    .flexbox {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13vh;
+    }
+    
+}
+.selfIntro-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.gradientBkgd {
+    background: linear-gradient(270deg, #c566a1, #9faabf, #03ccba);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
