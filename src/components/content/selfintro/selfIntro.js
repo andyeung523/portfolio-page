@@ -5,17 +5,20 @@ import './selfintro.css'
 
 export default function SelfIntro() {
     return (
-        <section>
-            <div className="flexbox gradientBkgd neumorphy" id="self-area">
+        <section id="self-area">
+            <div className="flexbox noClick " >
 
 
 
                 <div className="img-container center ">
-                    <img id="self_img" src={self_img} alt="self_img" />
+                    {/* <img id="self_img" src={self_img} alt="self_img" /> */}
                 </div>
-                <div className="selfIntro-txt">
-                    <p>
-                        Hi, I am Andy Yeung, a Hong Konger who study computer science.
+                <div className="selfIntro-txt gradientBkgd neumorphy"> 
+                    <p className="big-txt">
+                        Hi, I am Andy Yeung
+                    </p>
+                    <p className="small-txt">
+                    a Hong Konger who study computer science.
                     </p>
                 </div>
 

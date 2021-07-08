@@ -1,4 +1,14 @@
 #bkgd{
-    margin-bottom: 30vh;
-    margin-top: 30vh;
+    padding-bottom: 30vh;
+    padding-top: 50vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+    height: fit-content;
+    width: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    display: flex;
+    justify-content: space-around;
 }

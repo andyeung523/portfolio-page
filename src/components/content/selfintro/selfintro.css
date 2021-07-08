@@ -1,9 +1,4 @@
-.neumorphy {
-    border-radius: 12px;
-    background: #fff;
-    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #eeeeee;
-    height: fit-content;
-}
+
 
 .neumorphy:active{
     all:inherit;
@@ -22,24 +17,21 @@
 }
 
 #self_img {
-    height: 30vh;
+    height: 25vh;
     border-radius: 50%;
 }
 
 #self-area {
     top: 15vh;
-    height: 50vh;
-    width: 80;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    height: fit-content;
+    width: 100%;
+    /* margin-left: 10vw; */
+    /* margin-right: 10vw; */
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
     position: relative;
 }
-
-#self-text {
-    font-size: 3vw;
-   
-}
-
 
 @media screen and (max-width:600px) {
     .flexbox {
@@ -58,8 +50,12 @@
 }
 .selfIntro-txt{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+
+    padding-left: 5vw;
+    padding-right: 5vw;
     color: white;
 }
 
@@ -87,3 +83,4 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
