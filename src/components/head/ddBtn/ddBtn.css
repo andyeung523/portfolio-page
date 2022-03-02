@@ -1,10 +1,9 @@
 .ddBtn {
-     background: rgba( 255, 255, 255, 0.30);
-    backdrop-filter: blur( 3.5px);
-    -webkit-backdrop-filter: blur( 3.5px);
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18);
+
+    font-size: x-small;
     margin: 4vh 1vh 4vh 1vh;
+    height: max-content;
+    width: max-content;
 }
 
 
@@ -12,6 +11,7 @@ ddBtn:visited{
     all:unset;
 }
 .ddBtn-area {
+    
     display: flex;
     align-items: center;
     justify-content: center;

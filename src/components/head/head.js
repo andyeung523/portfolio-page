@@ -41,22 +41,22 @@ function Head(props) {
                 </div>
 
                 <div id="btn-div ">
-                    <a className="nav-btn" href="#self-area" >
+                    <a className="nav-btn glass" href="#self-area" >
                         About
                     </a>
-                    <button className="nav-btn">
+                    <button className="nav-btn glass">
                         Background
                     </button>
-                    <button className="nav-btn">
+                    <button className="nav-btn glass">
                         Skill
                     </button>
-                    <button className="nav-btn">
+                    <button className="nav-btn glass">
                         Portfolio
                     </button>
-                    <button className="nav-btn">
+                    <button className="nav-btn glass">
                         Contact
                     </button>
-                    <button className="icon neumorphy" onClick={onclick}>
+                    <button className="icon glass" onClick={onclick}>
                         <FaBars className="icon" />
                     </button>
                 </div>

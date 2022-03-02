@@ -22,10 +22,10 @@
 }
 
 .nav-btn {
+    color: #333;
     border-radius: 12px;
     font-weight: 500;
     border: 0;
-    background-color: #fff;
     font-size: medium;
     padding: 1vw;
     margin: 1vw;
@@ -37,13 +37,12 @@ a{
 
 .nav-btn:hover {
     border-radius: 12px;
-    background: #ffffff;
-    box-shadow: inset 5px 5px 10px #e3e3e3, inset -5px -5px 10px #ffffff;
+    background: rgba( 255, 255, 255, 0.75);
     transition: 0.3s;
 }
 
 .nav-btn:visited{
-    color: #000;
+    color: #333;
 }
 
 .nm-container {
@@ -61,7 +60,7 @@ a{
 }
 
 .icon {
-    color: #000;
+    color: #eee;
     border-radius: 10%;
     font-size: 1rem;
     margin: 2vh;
@@ -129,7 +128,7 @@ a{
 .s-d {
     display: flex;
     flex-direction: column;
-    background: rgba( 255, 255, 255, 0.35);
+    background: rgba( 255, 255, 255, 0.10);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
     backdrop-filter: blur( 6.5px);
     -webkit-backdrop-filter: blur( 6.5px);

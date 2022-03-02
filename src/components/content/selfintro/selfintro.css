@@ -6,7 +6,7 @@
 
 .flexbox {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .img-container {
@@ -16,37 +16,30 @@
     margin: 3vh;
 }
 
-#self_img {
-    height: 25vh;
+#self-img {
+    height: 20vh;
     border-radius: 50%;
 }
 
+.img-con{
+    object-fit: scale-down;
+}
+
 #self-area {
-    top: 15vh;
-    height: fit-content;
     width: 100%;
     /* margin-left: 10vw; */
     /* margin-right: 10vw; */
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-
-    position: relative;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
 }
+
 
 @media screen and (max-width:600px) {
     .flexbox {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        flex-direction: column-reverse;
     }
-    .img-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 13vh;
-    }
-    
 }
 .selfIntro-txt{
     display: flex;
@@ -56,7 +49,7 @@
 
     padding-left: 5vw;
     padding-right: 5vw;
-    color: white;
+    color: #222;
 }
 
 .gradientBkgd {
@@ -84,3 +77,9 @@
     100%{background-position:0% 50%}
 }
 
+
+
+#self-con{
+    padding: 3vh;
+    width: 80vw;
+}

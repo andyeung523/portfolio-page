@@ -1,31 +1,55 @@
-.noClick{
-    pointer-events:none
+.noClick {
+    pointer-events: none
 }
-/* 
-body{
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
     background: linear-gradient(270deg, #c566a1, #9faabf, #03ccba);
     background-size: 600% 600%;
-
     -webkit-animation: AnimationName 25s ease infinite;
     -moz-animation: AnimationName 25s ease infinite;
     animation: AnimationName 25s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-} */
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
 
 .neumorphy {
     border-radius: 12px;
@@ -37,38 +61,56 @@ body{
 .gradientBkgd {
     background: linear-gradient(270deg, #c566a1, #9faabf, #03ccba);
     background-size: 600% 600%;
-
     -webkit-animation: AnimationName 25s ease infinite;
     -moz-animation: AnimationName 25s ease infinite;
     animation: AnimationName 25s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
-
-.big-txt{
+.big-txt {
     font-size: 5vh;
 }
-.small-txt{
+
+.small-txt {
     font-size: 3vh;
 }
 
-
-.mycontainer{
+.mycontainer {
     top: 15vh;
     height: fit-content;
     width: 100%;
@@ -76,6 +118,38 @@ body{
     /* margin-right: 10vw; */
     padding-top: 5vh;
     padding-bottom: 5vh;
-
     position: relative;
+}
+
+body {
+    background-color: #eee;
+}
+
+.safe-con {
+    top: 15vh;
+    height: 100vh;
+    align-content: center;
+    width: 100%;
+    /* margin-left: 10vw; */
+    /* margin-right: 10vw; */
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.glass {
+    background: rgba( 255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 16.0px);
+    -webkit-backdrop-filter: blur( 16.0px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+.App{
+    display: flex;
+    flex-direction: column;
 }

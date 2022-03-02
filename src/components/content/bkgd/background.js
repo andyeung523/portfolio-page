@@ -3,13 +3,26 @@ import './bkgd.css'
 export default function Bkgd() {
     return (
         <section id="bkgd">
-
-                <div className="gradientBkgd neumorphy " id="bkgd-con">
-                    backgroundasddddddddddaasdasdasdasdasd
+            <div className="center glass" id="bkgd-con" >
+                <div id="#bkgd-content">
+                    <BackgroundBox/>
+                    <BackgroundBox/>
+                    <BackgroundBox/>
                 </div>
-                <div>
-
-                </div>
+            </div>
         </section>
     )
 }
+
+
+function BackgroundBox() {
+    return (
+        <div className="center glass">
+            <div>
+                gi
+            </div>
+            
+        </div>
+    )
+}
+

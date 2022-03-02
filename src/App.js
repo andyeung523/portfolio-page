@@ -12,24 +12,24 @@ import Contact from './components/content/contact/contact'
 
 function App() {
 
-  const selfIntroRef = useRef();
-  const BkgdRef = useRef();
-  const SkillRef = useRef();
-  const pFlioRef = useRef();
-  const ContactRef = useRef();
+  // const selfIntroRef = useRef();
+  // const BkgdRef = useRef();
+  // const SkillRef = useRef();
+  // const pFlioRef = useRef();
+  // const ContactRef = useRef();
 
-  var refDict = {
-    ["selfIntroRef"] : selfIntroRef,
-    ["BkgdRef"] : BkgdRef,
-    ["SkillRef"] : SkillRef,
-    ["pFlioRef"] : pFlioRef,
-    ["ContactRef"] : ContactRef,
-  }
+  // var refDict = {
+  //   ["selfIntroRef"] : selfIntroRef,
+  //   ["BkgdRef"] : BkgdRef,
+  //   ["SkillRef"] : SkillRef,
+  //   ["pFlioRef"] : pFlioRef,
+  //   ["ContactRef"] : ContactRef,
+  // }
 
   return (
     <div className="App">
-        <Head refDict={refDict}/>
-        <SelfIntro ref={selfIntroRef}/>
+        <Head />
+        <SelfIntro />
         <Bkgd/>
         <Skill/>
         <Pflio/>
