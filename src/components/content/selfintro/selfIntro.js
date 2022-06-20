@@ -9,16 +9,19 @@ export default function SelfIntro() {
     return (
         <section id="self-area" >
             <div className="center">
-                <div  className="flexbox noClick glass " id="self-con">
-                    <div className="img-con">
+                <div className="flexbox noClick glass " id="self-con">
+                    {/* <div className="img-con">
                         <img src={self_img} id="self-img" />
-                    </div>
+                    </div> */}
                     <div className="selfIntro-txt  ">
                         <p className="big-txt">
                             Hi, I am Andy Yeung
                         </p>
                         <p className="small-txt">
-                            Welcome to my website.
+                            Born in 1998, after around 20 years of education,
+                        </p>
+                        <p className="small-txt">
+                            I can communicate with you, and also the computer.
                         </p>
                     </div>
                 </div>

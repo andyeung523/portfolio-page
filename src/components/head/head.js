@@ -41,24 +41,24 @@ function Head(props) {
                 </div>
 
                 <div id="btn-div ">
-                    <a className="nav-btn glass" href="#self-area" >
+                    <a role="button" aria-pressed="true" className="nav-btn glass" href="#self-area" >
                         About
                     </a>
-                    <button className="nav-btn glass">
+                    <a className="nav-btn glass" href="#bkgd">
                         Background
-                    </button>
-                    <button className="nav-btn glass">
+                    </a>
+                    <a className="nav-btn glass" href="#skill">
                         Skill
-                    </button>
-                    <button className="nav-btn glass">
+                    </a>
+                    <a className="nav-btn glass" href="#Portfolio">
                         Portfolio
-                    </button>
-                    <button className="nav-btn glass">
+                    </a>
+                    <a className="nav-btn glass" href="#contact">
                         Contact
-                    </button>
-                    <button className="icon glass" onClick={onclick}>
+                    </a>
+                    <a className="icon glass" onClick={onclick}>
                         <FaBars className="icon" />
-                    </button>
+                    </a>
                 </div>
 
             </div>
@@ -66,10 +66,10 @@ function Head(props) {
             <div id="dropdown_meun"className={wrapperClass}>
                 <div className={navClass}>
                     <DDBtn name="About" closeFunc={onclick} to="#self-area"/>
-                    <DDBtn name="Background"/>
-                    <DDBtn name="Skill"/>
-                    <DDBtn name="Porfolio"/>
-                    <DDBtn name="Contact"/>
+                    <DDBtn name="Background" closeFunc={onclick} to="#bkgd"/>
+                    <DDBtn name="Skill"  closeFunc={onclick} to="#skill"/>
+                    <DDBtn name="Porfolio" closeFunc={onclick} to="#Portfolio"/>
+                    <DDBtn name="Contact" closeFunc={onclick} to="#contact"/>
 
                 </div>
             </div>

@@ -22,6 +22,7 @@
 }
 
 .nav-btn {
+    text-decoration: none;
     color: #333;
     border-radius: 12px;
     font-weight: 500;
@@ -36,6 +37,7 @@ a{
 }
 
 .nav-btn:hover {
+    text-decoration: none;
     border-radius: 12px;
     background: rgba( 255, 255, 255, 0.75);
     transition: 0.3s;

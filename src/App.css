@@ -153,3 +153,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.ele{
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+}
