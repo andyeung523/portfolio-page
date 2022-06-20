@@ -5,7 +5,7 @@ import ust_badge from '../../../asset/img/UST_L3.svg'
 export default function Bkgd() {
     return (
         <section id="bkgd" class="ele">
-            <div className="center glass" id="bkgd-con" >
+            <div className="center glass " id="bkgd-con" >
                 <div id="#bkgd-content ">
                     <div class="d-flex justify-content-between">
                         <div class="container ">

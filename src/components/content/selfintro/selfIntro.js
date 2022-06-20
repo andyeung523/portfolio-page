@@ -18,10 +18,16 @@ export default function SelfIntro() {
                             Hi, I am Andy Yeung
                         </p>
                         <p className="small-txt">
-                            Born in 1998, after around 20 years of education,
+                            Born in 1998, Hong Kong.
                         </p>
                         <p className="small-txt">
-                            I can communicate with you, and also the computer.
+                            I love sport.
+                        </p>
+                        <p className="small-txt">
+                            I love sci-fiction movies.
+                        </p>
+                        <p className="small-txt">
+                            And I love your visit. 
                         </p>
                     </div>
                 </div>
